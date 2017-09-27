@@ -1,3 +1,10 @@
 #heading{
     background-color: #7E0ECE;
 }
+
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
