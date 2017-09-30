@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <link rel="stylesheet" href="main.css"/>
 </head>
-<body>
+<body id="page_top">
 
     
 
@@ -22,13 +22,19 @@
         <div class="collapse navbar-collapse" id="navbarMenu">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#Buckingham">Buckingham<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#page_top">Home<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#Windsor">Windsor</a>
+                    <a class="nav-link" href="#BuckinghamIntro">Buckingham</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#Versailles">Versailles</a>
+                    <a class="nav-link" href="#WindsorIntro">Windsor</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#VersaillesIntro">Versailles</a>
+                </li>
+                <li class="nav-item">
+                        <a class="nav-link" href="#forbidden">Coming Soon</a>
                 </li>
             </ul>
         </div>
@@ -37,26 +43,40 @@
     
 
     <!-- Start Grid -->
-    <div class="container-fluid">
-        
-        <section class="row">
-            <div class="col-sm-2"><p></p></div>
-            <div id="centerContent" class="col-sm-8 container-fluid">
-                <!-- Heading -->
-                <section id="heading" class="row container_fluid main_section">
-                    <div class="row">
-                        <img src="images/logo.png" alt="PalaceBnB" class="img-fluid col-sm-6 rounded-circle mx-auto d-block" alt="logo">
-                        <div class="col-sm-6">
-                            <h2>What we do</h2>
-                            <p>We have the very best hotel locations in the world. Live like a king in each of our grand luxurious rooms. Do you want an ornate residence with beautiful gardens? We have you covered. Would you prefer a hotel that could withstand a siege? We have you covered. <em>Continental breakfast and Wi-Fi are included.</em> </p>
-                            <br>
-                            <p class="lead">When countries have castles they can’t fill, they use palacebnb to fill them. That is how you know you are getting the best price. </p>
-                        </div>
-                    </div>
-                </section>
-                <!--Buckingham Palace-->
-                <section id="Buckingham" class="row main_section">
-                    <div id="buckinghamSlides" class="col-sm-6 carousel slide" data-ride="carousel">
+    <div class="container-fluid main_section">
+
+        <!-- Heading -->
+        <section id="heading">
+            <div class="row align-items-center main_section">
+                 <div class="col-sm-2"></div>
+                 <div class="col-sm-5">
+                     <img src="images/logo.png" alt="PalaceBnB" class="img-fluid rounded-circle d-block" alt="logo">
+                </div>
+                <div class="col-sm-5">
+                    <h2>What we do</h2>
+                    <p>We have the very best hotel locations in the world. Live like a king in each of our grand luxurious rooms. Do you want an ornate residence with beautiful gardens? We have you covered. Would you prefer a hotel that could withstand a siege? We have you covered. <em>Continental breakfast and Wi-Fi are included.</em> </p>
+                    <br>
+                    <p class="lead">When countries have castles they can’t fill, they use palacebnb to fill them. That is how you know you are getting the best price. </p>
+                </div>
+                <div class="col-sm-2"></div>
+            </div>
+        </section>
+    
+
+        <!--Buckingham Palace-->
+        <section id="BuckinghamIntro">
+            <div class="row main_section">
+                <div class="col-sm-12">
+                    <div class="parallax-buckingham"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="Buckingham">
+            <div class="row align-items-center main_section">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-5">
+                    <div id="buckinghamSlides" class="carousel slide" data-ride="carousel">
                         <ol class="carousel-indicators">
                             <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
                             <li data-target="#carouselIndicators" data-slide-to="1"></li>
@@ -94,24 +114,40 @@
                             <span class="sr-only">Next</span>
                         </a>
                     </div>
-                    <div class="col-sm-6">
-                        <h2>Buckingham Palace</h2>
-                        <p>Near the heart of London, there is so much to do here. There are plentiful pubs, lots of fish and chips, and, a very big clock.</p>
-                        <br>
-                        <blockquote class="blockquote">
-                            <p>The room had an excellent view, and we loved the city</p>
-                            <footer class="blockquote-footer">Some nice couple</footer>
-                        </blockquote>
-                        <br>
-                        <blockquote class="blockquote">
-                            <p>Which government official did you bribe let you do this? </p>
-                            <footer class="blockquote-footer">This customer couldn't believe his eyes</footer>
-                        </blockquote>
-                    </div>
-                </section>
-                <!--Windsor Castle-->
-                <section id="Windsor" class="row main_section">
-                    <div id="WindsorSlides" class="col-sm-6 carousel slide" data-ride="carousel">
+                </div>
+                <div class="col-sm-5">
+                    <h2>Buckingham Palace</h2>
+                    <p>Near the heart of London, there is so much to do here. There are plentiful pubs, lots of fish and chips, and, a very big clock.</p>
+                    <br>
+                    <blockquote class="blockquote">
+                        <p>The room had an excellent view, and we loved the city</p>
+                        <footer class="blockquote-footer">Some nice couple</footer>
+                    </blockquote>
+                    <br>
+                    <blockquote class="blockquote">
+                        <p>Which government official did you bribe let you do this? </p>
+                        <footer class="blockquote-footer">This customer couldn't believe his eyes</footer>
+                    </blockquote>
+                </div>
+                <div class="col-sm-2"></div>
+            </div>
+        </section>
+        
+
+        <!--Windsor Castle-->
+        <section id="WindsorIntro">
+            <div class="row main_section">
+                 <div class="col-sm-12">
+                    <div class="parallax-windsor"></div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="Windsor">
+            <div class="row align-items-center main_section">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-5">
+                    <div id="WindsorSlides" class="carousel slide" data-ride="carousel">
                         <ol class="carousel-indicators">
                             <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
                             <li data-target="#carouselIndicators" data-slide-to="1"></li>
@@ -149,23 +185,39 @@
                             <span class="sr-only">Next</span>
                         </a>
                     </div>
-                    <div class="col-sm-6">
-                        <h2>Windsor Castle</h2>
-                        <p>Out in the country, this castle has survived several sieges in the last thousand years. You will both survive and enjoy your stay here. This is England’s best castle.</p>
-                        <br>
-                        <blockquote class="blockquote">
-                            <p>The castle was so big, and the robes were the softest I had ever seen.</p>
-                            <footer class="blockquote-footer">A very comfortable person</footer>
-                        </blockquote>
-                        <br>
-                        <blockquote class="blockquote">
-                            <p>The security was top notch. I felt very safe.</p>
-                            <footer class="blockquote-footer">Anonymous</footer>
-                        </blockquote>
-                    </div>
-                </section>
-                <section id="Versailles" class="row main_section">
-                    <div id="VersaillesSlides" class="col-sm-6 carousel slide" data-ride="carousel">
+                </div>
+                <div class="col-sm-5">
+                    <h2>Windsor Castle</h2>
+                    <p>Out in the country, this castle has survived several sieges in the last thousand years. You will both survive and enjoy your stay here. This is England’s best castle.</p>
+                    <br>
+                    <blockquote class="blockquote">
+                        <p>The castle was so big, and the robes were the softest I had ever seen.</p>
+                        <footer class="blockquote-footer">A very comfortable person</footer>
+                    </blockquote>
+                    <br>
+                    <blockquote class="blockquote">
+                        <p>The security was top notch. I felt very safe.</p>
+                        <footer class="blockquote-footer">Anonymous</footer>
+                    </blockquote>
+                </div>
+                <div class="col-sm-2"></div>
+        </section>
+               
+        
+        <!-- Versailles -->
+        <section id="VersaillesIntro">
+            <div class="row main_section">
+                <div class="col-sm-12">
+                    <div class="parallax-versailles"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="Versailles">
+            <div class="row align-items-center main_section">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-5">
+                    <div id="VersaillesSlides" class="carousel slide" data-ride="carousel">
                         <ol class="carousel-indicators">
                             <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
                             <li data-target="#carouselIndicators" data-slide-to="1"></li>
@@ -212,29 +264,46 @@
                             <span class="sr-only">Next</span>
                         </a>
                     </div>
-                    <div class="col-sm-6">
-                        <h2>Palace of Versailles</h2>
-                        <p>This palace combines a beautiful country setting with a short train ride from Paris that puts all the sites of the city within arm’s reach. Stay two times, and get the third stay free.</p>
-                        <br>
-                        <blockquote class="blockquote">
-                            <p>I liked the high ceilings. They made the rooms feel so open</p>
-                            <footer class="blockquote-footer">A giant</footer>
-                        </blockquote>
-                        <br>
-                        <blockquote class="blockquote">
-                            <p>The security was top notch. I felt very safe.</p>
-                            <footer class="blockquote-footer">Anonymous</footer>
-                        </blockquote>
-                    </div>
-                </section>
-                <section id="forbidden" class="row main_section">
-                    <h1>Coming Soon</h1>
-                    <img class="img-fluid rounded" src="images/1280px-Forbidden_City_Beijing_Shenwumen_Gate.JPG" alt="Coming soon, the Forbidden City">
-                </section>
+                </div>
+                <div class="col-sm-5">
+                    <h2>Palace of Versailles</h2>
+                    <p>This palace combines a beautiful country setting with a short train ride from Paris that puts all the sites of the city within arm’s reach. Stay two times, and get the third stay free.</p>
+                    <br>
+                    <blockquote class="blockquote">
+                        <p>I liked the high ceilings. They made the rooms feel so open</p>
+                        <footer class="blockquote-footer">A giant</footer>
+                    </blockquote>
+                    <br>
+                    <blockquote class="blockquote">
+                        <p>The security was top notch. I felt very safe.</p>
+                        <footer class="blockquote-footer">Anonymous</footer>
+                    </blockquote>
+                </div>
+                <div class="col-sm-2"></div>
             </div>
-            <div class="col-sm-2"></div>
         </section>
+
+
+        <!-- Coming Soon-Forbidden City -->
+        <section id="forbidden">
+            <div class="row align-items-center main_section">
+                <div class="col-sm-5"></div>
+                <div class="col-sm-2"><h1 class="text-center">Coming Soon<h1></div>
+                <div class="col-sm-5"></div> 
+            </div>
+            
+            <div class="row align-items-center main_section">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8">
+                    <img class="img-fluid rounded" src="images/1280px-Forbidden_City_Beijing_Shenwumen_Gate.JPG" alt="Coming soon, the Forbidden City">
+                </div>
+                <div class="col-sm-2"></div>
+            </div>
+        </section>
+
+
     </div>
+    <!-- End Container -->
 
     <!--Javascript-->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
